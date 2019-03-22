@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="width" secondItem="CAA-XG-iKT" secondAttribute="height" multiplier="331:126" id="Ljw-va-4TA"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Instagram Logo" translatesAutoresizingMaskIntoConstraints="NO" id="fyY-2D-cql">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagramLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fyY-2D-cql">
                                 <rect key="frame" x="87.5" y="292.5" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="Nul-jr-5bw"/>
@@ -52,7 +52,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Instagram Logo" width="1252.1739501953125" height="1252.1739501953125"/>
+        <image name="instagramLogo" width="499.5" height="499.5"/>
         <image name="parstagram_logo" width="192" height="68.25"/>
     </resources>
 </document>
