@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BA07CD4224AFBCC00D158D7 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA07CD3224AFBCC00D158D7 /* CommentCell.swift */; };
 		6BCD9ACD2243703600365C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCD9ACC2243703600365C89 /* AppDelegate.swift */; };
 		6BCD9AD22243703600365C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCD9AD02243703600365C89 /* Main.storyboard */; };
 		6BCD9AD42243703600365C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BCD9AD32243703600365C89 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BA07CD3224AFBCC00D158D7 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		6BCD9AC92243703600365C89 /* parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCD9ACC2243703600365C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BCD9AD12243703600365C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				6BCD9ACC2243703600365C89 /* AppDelegate.swift */,
 				6BCD9AD02243703600365C89 /* Main.storyboard */,
+				6BA07CD3224AFBCC00D158D7 /* CommentCell.swift */,
 				6BCD9AE422444AB900365C89 /* PostCell.swift */,
 				6BCD9AD32243703600365C89 /* Assets.xcassets */,
 				6BCD9AD52243703600365C89 /* LaunchScreen.storyboard */,
@@ -176,6 +179,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -183,6 +187,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +225,7 @@
 				6BCD9AE12243757500365C89 /* FeedViewController.swift in Sources */,
 				6BCD9ACD2243703600365C89 /* AppDelegate.swift in Sources */,
 				6BCD9AE522444AB900365C89 /* PostCell.swift in Sources */,
+				6BA07CD4224AFBCC00D158D7 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
